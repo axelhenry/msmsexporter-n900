@@ -25,7 +25,7 @@ cp /home/user/.rtcom-eventlogger/el-v1.db /home/user/MyDocs/el-v1.db
 ```bash
 cp -r /home/user/.fmms /home/user/MyDocs/FMMS/
 ```
-__WARNING__: In some cases, some subfolders of .fmms could contain special characters like * and cannot be copied with cp. If you run into this issue, you can use [WinSCP](https://winscp.net) (or any other ftp client) to connect over ssh on your N900. More informations on how to install and configure ftp over SSH on [maemo.org](https://wiki.maemo.org/SSH)
+__WARNING__: In some cases, some subfolders of .fmms could contain special characters like * and cannot be copied with cp. If you run into this issue, you can use [WinSCP](https://winscp.net) (or any other ftp client) to connect over ssh on your N900, and use this client to copy wanted files/folders. More informations on how to install and configure ftp over SSH on [maemo.org](https://wiki.maemo.org/SSH)
 
 Once you've got __el-v1.db__ or/and __mms.db__, you can proceed to the next step.
 
@@ -34,8 +34,8 @@ Once you've got __el-v1.db__ or/and __mms.db__, you can proceed to the next step
 This app takes 2 or 3 arguments:
 - __--tar_file__
 - one or both arguments:
-  - __mms_database__
-  - __sms_database__
+  - __--mms_database__
+  - __--sms_database__
 
 
 ```bash
