@@ -2,7 +2,7 @@
 
 ### About
 
-This application aims to allow N900 users to export their SMSes or/and MMSes
+This application aims to allow N900 users to export their SMSes or/and MMSes in a format described [here](https://github.com/axelhenry/msmsimporter-archive), compatible with [(M|S)MSImporter](https://github.com/axelhenry/msmsimporter-android).
 
 ### Installation
 
