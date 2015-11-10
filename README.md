@@ -6,6 +6,7 @@ This application aims to allow N900 users to export their SMSes or/and MMSes in 
 
 ### Installation
 
+- If you don't have python3 and pip installed on your computer, install it through your package manager.
 - Clone this repo on your computer.  
 ```bash
 git clone https://github.com/axelhenry/msmsexporter-n900.git
