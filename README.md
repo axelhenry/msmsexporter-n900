@@ -12,6 +12,11 @@ This application aims to allow N900 users to export their SMSes or/and MMSes in 
 git clone https://github.com/axelhenry/msmsexporter-n900.git
 ```
 - Go into the newly created directory.  
+- __Optional step, but strongly advised__ : Open a terminal and create a new virtual environment in this directory.
+```bash
+virtualenv venv
+source venv/bin/activate
+```
 - Open a terminal and install required dependencies:
 ```bash
 pip install -r stable-req.txt
