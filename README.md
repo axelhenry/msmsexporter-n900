@@ -7,6 +7,9 @@ This application aims to allow N900 users to export their SMSes or/and MMSes in 
 ### Installation
 
 - Clone this repo on your computer.  
+```bash
+git clone https://github.com/axelhenry/msmsexporter-n900.git
+```
 - Go into the newly created directory.  
 - Open a terminal and install required dependencies:
 ```bash
